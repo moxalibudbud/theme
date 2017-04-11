@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+body{
+	margin-top: 50px;
+	font-family: 'Lato', sans-serif;
+	font-family: 400;
+}
+
+/*  MAIN MENU */
+#navbar-menu {
+	background-color: #0F2608;
+	border-color: #0F2608;
+}
+
+#navbar-menu .navbar-brand, #navbar-menu #main-menu li a{
+	color: #fff;
+}
+
+
+
+/* BANNER */
+.banner {
+    color: #fff;
+    background-image: linear-gradient(-120deg, rgba(245, 33, 33, 0) 87%, rgba(255, 255, 255, 0.08) 15%), linear-gradient(-110deg, rgba(27, 0, 255, 0) 85%, rgba(255, 255, 255, 0.08) 15%), linear-gradient(-103deg, rgba(255, 33, 33, 0) 84%, rgba(255, 255, 255, 0.08) 15%), radial-gradient(circle, #479a4f 0%, #356339 100%);
+
+}
+
+.banner .banner-container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 992px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.banner .banner-container .banner-img {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+    margin: 0 auto;
+}
+.banner .banner-container .banner-img img {
+	margin: 0 auto;
+}
